@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on HEALTHSQUARE</title>
+    <link>http://www.healthsquare.com.au/page/</link>
+    <description>Recent content in Pages on HEALTHSQUARE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Jul 2016 21:31:07 +1000</lastBuildDate>
+    <atom:link href="http://www.healthsquare.com.au/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>privacy</title>
+      <link>http://www.healthsquare.com.au/page/privacy/</link>
+      <pubDate>Sun, 31 Jul 2016 21:31:07 +1000</pubDate>
+      
+      <guid>http://www.healthsquare.com.au/page/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>advertise</title>
+      <link>http://www.healthsquare.com.au/page/advertise/</link>
+      <pubDate>Sun, 31 Jul 2016 21:29:37 +1000</pubDate>
+      
+      <guid>http://www.healthsquare.com.au/page/advertise/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>contact</title>
+      <link>http://www.healthsquare.com.au/page/contact/</link>
+      <pubDate>Sun, 31 Jul 2016 21:29:19 +1000</pubDate>
+      
+      <guid>http://www.healthsquare.com.au/page/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://www.healthsquare.com.au/page/about/</link>
+      <pubDate>Sun, 31 Jul 2016 21:29:09 +1000</pubDate>
+      
+      <guid>http://www.healthsquare.com.au/page/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

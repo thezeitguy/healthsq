@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources on HEALTHSQUARE</title>
+    <link>http://www.healthsquare.com.au/resources/</link>
+    <description>Recent content in Resources on HEALTHSQUARE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Jul 2016 21:30:49 +1000</lastBuildDate>
+    <atom:link href="http://www.healthsquare.com.au/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>directory</title>
+      <link>http://www.healthsquare.com.au/resources/directory/</link>
+      <pubDate>Sun, 31 Jul 2016 21:30:49 +1000</pubDate>
+      
+      <guid>http://www.healthsquare.com.au/resources/directory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tenders</title>
+      <link>http://www.healthsquare.com.au/resources/tenders/</link>
+      <pubDate>Sun, 31 Jul 2016 21:30:33 +1000</pubDate>
+      
+      <guid>http://www.healthsquare.com.au/resources/tenders/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

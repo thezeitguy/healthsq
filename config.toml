@@ -1,0 +1,12 @@
+baseurl = "http://www.healthsquare.com.au"
+languageCode = "en-us"
+title = "HEALTHSQUARE"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  description = "Healthcare news and business opportunities"
+  author = "Healthsquare"
+ disqusShortname = "aushealth"

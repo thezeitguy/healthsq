@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on HEALTHSQUARE</title>
+    <link>http://www.healthsquare.com.au/post/</link>
+    <description>Recent content in Posts on HEALTHSQUARE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Jul 2016 21:30:15 +1000</lastBuildDate>
+    <atom:link href="http://www.healthsquare.com.au/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Health dept to retain commissioning veto</title>
+      <link>http://www.healthsquare.com.au/post/Health-dept-to-retain-commissioning-veto/</link>
+      <pubDate>Sun, 31 Jul 2016 21:30:15 +1000</pubDate>
+      
+      <guid>http://www.healthsquare.com.au/post/Health-dept-to-retain-commissioning-veto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>introducing healthsquare</title>
+      <link>http://www.healthsquare.com.au/post/introducing-healthsquare/</link>
+      <pubDate>Sun, 31 Jul 2016 21:10:50 +1000</pubDate>
+      
+      <guid>http://www.healthsquare.com.au/post/introducing-healthsquare/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

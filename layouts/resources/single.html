@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1404.47">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 21.4px; font: 10.0px Menlo; color: #e6db74; -webkit-text-stroke: #e6db74; background-color: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 21.4px; font: 10.0px Menlo; color: #f8f8f2; -webkit-text-stroke: #f8f8f2; background-color: #000000; min-height: 11.0px}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 21.4px; font: 10.0px Menlo; color: #f92672; -webkit-text-stroke: #f92672; background-color: #000000}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 21.4px; font: 10.0px Menlo; color: #f8f8f2; -webkit-text-stroke: #f8f8f2; background-color: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {font-kerning: none; color: #f8f8f2; -webkit-text-stroke: 0px #f8f8f2}
+    span.s3 {font-kerning: none; color: #e6db74; -webkit-text-stroke: 0px #e6db74}
+    span.s4 {font-kerning: none; color: #f92672; -webkit-text-stroke: 0px #f92672}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">{{ partial "header.html" . }}</span></p>
+<p class="p1"><span class="s1">{{ partial "subheader.html" . }}</span></p>
+<p class="p1"><span class="s1">{{ $baseurl := .Site.BaseURL }}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p3"><span class="s2">&lt;</span><span class="s1">section</span><span class="s2"> </span><span class="s1">id</span><span class="s2">=</span><span class="s3">"main"</span><span class="s2">&gt;</span></p>
+<p class="p1"><span class="s2"><span class="Apple-converted-space">  </span>&lt;</span><span class="s4">h1</span><span class="s2"> </span><span class="s4">id</span><span class="s2">=</span><span class="s1">"title"</span><span class="s2">&gt;</span><span class="s1">{{ .Title }}</span><span class="s2">&lt;/</span><span class="s4">h1</span><span class="s2">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">  </span>&lt;</span><span class="s4">div</span><span class="s1">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>&lt;</span><span class="s4">article</span><span class="s1"> </span><span class="s4">id</span><span class="s1">=</span><span class="s3">"content"</span><span class="s1">&gt;</span></p>
+<p class="p1"><span class="s2"><span class="Apple-converted-space">           </span></span><span class="s1">{{ .Content }}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/</span><span class="s4">article</span><span class="s1">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/</span><span class="s4">div</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="s2">&lt;/</span><span class="s1">section</span><span class="s2">&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p3"><span class="s2">&lt;</span><span class="s1">aside</span><span class="s2"> </span><span class="s1">id</span><span class="s2">=</span><span class="s3">"meta"</span><span class="s2">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s4">div</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">    </span>&lt;</span><span class="s1">section</span><span class="s2">&gt;</span></p>
+<p class="p1"><span class="s2"><span class="Apple-converted-space">      </span>&lt;</span><span class="s4">h4</span><span class="s2"> </span><span class="s4">id</span><span class="s2">=</span><span class="s1">"date"</span><span class="s2">&gt; </span><span class="s1">{{ .Date.Format "Mon Jan 2, 2006" }}</span><span class="s2"> &lt;/</span><span class="s4">h4</span><span class="s2">&gt;</span></p>
+<p class="p1"><span class="s2"><span class="Apple-converted-space">      </span>&lt;</span><span class="s4">h5</span><span class="s2"> </span><span class="s4">id</span><span class="s2">=</span><span class="s1">"wc"</span><span class="s2">&gt; </span><span class="s1">{{ .FuzzyWordCount }}</span><span class="s2"> Words &lt;/</span><span class="s4">h5</span><span class="s2">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/</span><span class="s4">section</span><span class="s1">&gt;</span></p>
+<p class="p1"><span class="s2"><span class="Apple-converted-space">    </span>&lt;</span><span class="s4">ul</span><span class="s2"> </span><span class="s4">id</span><span class="s2">=</span><span class="s1">"categories"</span><span class="s2">&gt;</span></p>
+<p class="p1"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">{{ range .Params.topics }}</span></p>
+<p class="p1"><span class="s2"><span class="Apple-converted-space">      </span>&lt;</span><span class="s4">li</span><span class="s2">&gt;&lt;</span><span class="s4">a</span><span class="s2"> </span><span class="s4">href</span><span class="s2">=</span><span class="s1">"{{ $baseurl }}/topics/{{ . | urlize }}"</span><span class="s2">&gt;</span><span class="s1">{{ . }}</span><span class="s2">&lt;/</span><span class="s4">a</span><span class="s2">&gt; &lt;/</span><span class="s4">li</span><span class="s2">&gt;</span></p>
+<p class="p1"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">{{ end }}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/</span><span class="s4">ul</span><span class="s1">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s4">ul</span><span class="s1"> </span><span class="s4">id</span><span class="s1">=</span><span class="s3">"tags"</span><span class="s1">&gt;</span></p>
+<p class="p1"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">{{ range .Params.tags }}</span></p>
+<p class="p1"><span class="s2"><span class="Apple-converted-space">        </span>&lt;</span><span class="s4">li</span><span class="s2">&gt; &lt;</span><span class="s4">a</span><span class="s2"> </span><span class="s4">href</span><span class="s2">=</span><span class="s1">"{{ $baseurl }}/tags/{{ . | urlize }}"</span><span class="s2">&gt;</span><span class="s1">{{ . }}</span><span class="s2">&lt;/</span><span class="s4">a</span><span class="s2">&gt; &lt;/</span><span class="s4">li</span><span class="s2">&gt;</span></p>
+<p class="p1"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">{{ end }}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/</span><span class="s4">ul</span><span class="s1">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/</span><span class="s4">div</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="s2">&lt;/</span><span class="s1">aside</span><span class="s2">&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">{{if isset .Params "project_url" }}</span></p>
+<p class="p1"><span class="s2">&lt;</span><span class="s4">div</span><span class="s2"> </span><span class="s4">id</span><span class="s2">=</span><span class="s1">"ribbon"</span><span class="s2">&gt;</span></p>
+<p class="p1"><span class="s2"><span class="Apple-converted-space">    </span>&lt;</span><span class="s4">a</span><span class="s2"> </span><span class="s4">href</span><span class="s2">=</span><span class="s1">"{{ index .Params "project_url" }}"</span><span class="s2"> </span><span class="s4">rel</span><span class="s2">=</span><span class="s1">"me"</span><span class="s2">&gt;Fork me on GitHub&lt;/</span><span class="s4">a</span><span class="s2">&gt;</span></p>
+<p class="p4"><span class="s1">&lt;/</span><span class="s4">div</span><span class="s1">&gt;</span></p>
+<p class="p1"><span class="s1">{{ end }}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">{{ partial "footer.html" . }}</span></p>
+</body>
+</html>
